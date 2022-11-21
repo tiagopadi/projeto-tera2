@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-Light.ttf);
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-Bold.ttf);
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Rubik;
+  background: #bddbd2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-weight: lighter;
+}
+
+form {
+  width: 300px;
+}
+
+h4 {
+  color: #002065;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+label {
+  color: #002065;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+span {
+  font-size: 1em;
+  margin: 0;
+  padding: 0px;
+  display: none;
+  color: #b61f0e;
+}
+
+input,
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: -webkit-fill-available;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+button[disabled] {
+  opacity: 0.8;
+}
+
+.clear {
+  background: transparent;
+  color: #002065;
+  border: 1px solid #002065;
+}
+.solid {
+  background: #002065;
+  border: none;
+  color: white;
+}
+.outline {
+  background: transparent;
+  color: #002065;
+  border: 1px solid #002065;
+}
+
+a {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #002065;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}

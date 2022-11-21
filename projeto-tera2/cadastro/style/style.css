@@ -1,0 +1,210 @@
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-Light.ttf);
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Rubik;
+  background-color: white;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0;
+  background-color: #cbd8d4;
+}
+
+* {
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 100px;
+  background-color: #bddbd2;
+  text-align: center;
+  color: white;
+  box-shadow: 5px 5px 2px 2px #aaa9a9;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #002065;
+  padding-top: 28px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h2 {
+  color: #002065;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px;
+  border-radius: 11px;
+  background-color: #cbd8d4;
+}
+
+.container {
+  margin: 20px;
+}
+
+span {
+  font-size: 12px;
+  margin: 3px 0 0 1px;
+  display: none;
+  color: #b61f0e;
+}
+
+form a {
+  width: 28%;
+}
+
+main {
+  width: 100%;
+  margin-top: 0;
+}
+
+main h2 {
+  width: 100%;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+body {
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 7px;
+}
+
+span {
+  margin-top: 5px;
+  font-size: small;
+}
+
+input:focus {
+  outline: none;
+}
+
+.name {
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.cpf {
+  width: 30%;
+  margin-bottom: 11px;
+}
+
+.addres {
+  margin-bottom: 11px;
+  width: 70%;
+}
+
+.date {
+  margin-bottom: 11px;
+  width: 150px;
+}
+
+.cep {
+  margin-bottom: 11px;
+  width: 150px;
+}
+
+.number {
+  margin-bottom: 11px;
+  width: 100px;
+}
+
+.uf {
+  margin-bottom: 11px;
+  width: 100px;
+}
+
+.e-mail {
+  margin-bottom: 11px;
+  width: 50%;
+}
+
+.password {
+  margin-bottom: 11px;
+  width: 50%;
+}
+
+.check {
+  width: 2%;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 90px;
+  height: 35px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: small;
+  font-weight: lighter;
+  background-color: #ffcc00;
+  color: #002065;
+  border-radius: 13px;
+}
+
+button:hover {
+  background-color: #002065;
+  color: white;
+}
+
+.terms {
+  text-decoration: none;
+  color: blue;
+}
+
+.terms:hover {
+  text-decoration: underline;
+}
+
+.back {
+  text-decoration: none;
+  color: #002065;
+  font-weight: 600;
+  margin-top: 30px;
+  width: 30%;
+}
+
+.back:hover {
+  text-decoration: underline;
+  color: #002065;
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #bddbd2;
+  height: 50px;
+}
+
+footer h4 {
+  padding: 16px;
+  width: 100%;
+  text-align: center;
+  color: #002065;
+}
